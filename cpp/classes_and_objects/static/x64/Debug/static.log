@@ -1,0 +1,3 @@
+﻿  test_static_member_and_function.cpp
+D:\代码库\cpp\classes_and_objects\static\test_static_member_and_function.cpp(16,26): error C2597: 对非静态成员“Test::_count”的非法引用
+D:\代码库\cpp\classes_and_objects\static\test_static_member_and_function.cpp(21): message : 参见“Test::_count”的声明
