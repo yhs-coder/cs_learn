@@ -1,0 +1,18 @@
+﻿  String.cpp
+D:\Github_cs_learn\cpp\operator\demo_string\String.cpp(23,25): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+D:\Github_cs_learn\cpp\operator\demo_string\String.cpp(22,2): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Github_cs_learn\cpp\operator\demo_string\String.cpp(31,21): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+D:\Github_cs_learn\cpp\operator\demo_string\String.cpp(30,2): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Github_cs_learn\cpp\operator\demo_string\String.cpp(37,2): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Github_cs_learn\cpp\operator\demo_string\String.cpp(50,21): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+D:\Github_cs_learn\cpp\operator\demo_string\String.cpp(49,2): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Github_cs_learn\cpp\operator\demo_string\String.cpp(63,2): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Github_cs_learn\cpp\operator\demo_string\String.cpp(80,54): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+D:\Github_cs_learn\cpp\operator\demo_string\String.cpp(83,2): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Github_cs_learn\cpp\operator\demo_string\String.cpp(84,2): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Github_cs_learn\cpp\operator\demo_string\String.cpp(92,64): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+D:\Github_cs_learn\cpp\operator\demo_string\String.cpp(95,2): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Github_cs_learn\cpp\operator\demo_string\String.cpp(96,2): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  test.cpp
+  正在生成代码...
+  demo_string.vcxproj -> D:\Github_cs_learn\cpp\operator\x64\Debug\demo_string.exe

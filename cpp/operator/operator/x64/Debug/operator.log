@@ -1,5 +1,11 @@
-﻿  main.cpp
-D:\代码库\cpp\operator\operator\Person.h(13,3): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-D:\代码库\cpp\operator\operator\Person.h(25,3): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-D:\代码库\cpp\operator\operator\Person.h(33,3): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-  operator.vcxproj -> D:\代码库\cpp\operator\x64\Debug\operator.exe
+﻿  Person.cpp
+D:\Github_cs_learn\cpp\operator\operator\Person.h(13,3): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Github_cs_learn\cpp\operator\operator\Person.h(25,3): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Github_cs_learn\cpp\operator\operator\Person.h(33,3): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  Test.cpp
+  main.cpp
+D:\Github_cs_learn\cpp\operator\operator\Person.h(13,3): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Github_cs_learn\cpp\operator\operator\Person.h(25,3): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Github_cs_learn\cpp\operator\operator\Person.h(33,3): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  正在生成代码...
+  operator.vcxproj -> D:\Github_cs_learn\cpp\operator\x64\Debug\operator.exe
