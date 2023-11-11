@@ -74,4 +74,5 @@ void swap(Message& lhs, Message& rhs)
 
 void swap(Folder& lhs, Folder& rhs)
 {
+
 }
