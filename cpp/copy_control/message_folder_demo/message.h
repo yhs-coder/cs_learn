@@ -29,11 +29,12 @@ private:
 
 	// 拷贝构造函数、拷贝复制运算符和析构函数需要用到的工具函数，在它们封装在private
 	void add_to_folders(const Message&);	 // 把本Message添加到folder中
-	void remove_from_folders();				 // 从folders集合中，每个Folder中删除本Message;
+	void remove_from_folders();				 // 从folders集合中，每个Folder中删除本Message
 
 	void add_folder(Folder* f) {
 		folders_.insert(f);
 	}
+
 	void remove_folder(Folder* f) {
 		folders_.erase(f);
 	}
