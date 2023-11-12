@@ -40,6 +40,7 @@ private:
 	}
 };
 
+
 // void swap(Message&, Message&);
 
 class Folder
