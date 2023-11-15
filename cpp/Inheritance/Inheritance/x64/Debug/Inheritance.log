@@ -1,0 +1,4 @@
+﻿  DerivedClass_access_control.cpp
+D:\代码库\cpp\Inheritance\Inheritance\DerivedClass_access_control.cpp(67,11): warning C4101: “s”: 未引用的局部变量
+D:\代码库\cpp\Inheritance\Inheritance\DerivedClass_access_control.cpp(105,11): warning C4101: “s”: 未引用的局部变量
+  Inheritance.vcxproj -> D:\代码库\cpp\Inheritance\x64\Debug\Inheritance.exe
