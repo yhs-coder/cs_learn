@@ -1,2 +1,2 @@
 ﻿  test.cpp
-  construction_and_deconstruction_in_Inheritance.vcxproj -> D:\代码库\cpp\Inheritance\x64\Debug\construction_and_deconstruction_in_Inheritance.exe
+LINK : fatal error LNK1201: 写入程序数据库“D:\Github_cs_learn\cpp\Inheritance\x64\Debug\construction_and_deconstruction_in_Inheritance.pdb”时出错；请检查是否是磁盘空间不足、路径无效或权限不够

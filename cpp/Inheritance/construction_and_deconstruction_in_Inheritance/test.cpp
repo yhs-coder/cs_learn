@@ -1,4 +1,4 @@
-#include<iostream>
+#include <iostream>
 using std::cout;
 using std::endl;
 
@@ -82,6 +82,7 @@ public:
 	{
 		cout << "Derived2的构造函数调用" << endl;
 #if 1
+		// 派生类复用（共享）基类的成员
 		cout << "Derived2::&a_ = " << &(Derived2::a_) << endl;
 		cout << "Base2::&a_ = " << &(Base2::a_) << endl;
 		cout << "-----------------------------------" << endl;
