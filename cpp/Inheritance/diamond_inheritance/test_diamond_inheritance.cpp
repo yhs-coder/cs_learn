@@ -6,7 +6,7 @@ using std::endl;
 class Animal
 {
 public:
-	Animal() : age_(1000) {}
+	Animal(int age = 1) : age_(age) {}
 	void func() {
 		cout << "Animal::func" << endl;
 	}
@@ -15,8 +15,16 @@ public:
 
 #if 1
 // Ðé¼Ì³Ð
-class Sheep : virtual public Animal {};
-class Tuo : virtual public Animal {};
+class Sheep : virtual public Animal 
+{
+public:
+	Sheep() : Animal(10) {}
+};
+class Tuo : virtual public Animal
+{
+public:
+	Tuo() : Animal(20) {}
+};
 #else
 // ÆÕÍ¨¼Ì³Ð
 class Sheep :  public Animal {};
@@ -24,7 +32,10 @@ class Tuo :  public Animal {};
 #endif
 
 //ÑòÍÕ
-class SheepTuo : public Sheep, public Tuo {};
+class SheepTuo : public Sheep, public Tuo {
+public:
+	SheepTuo() : Animal(30) {}
+};
 
 // ÁâÐÎ¼Ì³Ð²úÉúµÄÎÊÌâ
 void test01()
@@ -124,11 +135,6 @@ void test03()
 }
 
 
-void test04()
-{
-	cout << "sizeof(Sheep) = " << sizeof(Sheep) << endl;
-	cout << "sizeof(Tuo) = " << sizeof(Tuo) << endl;
-}
 
 int main() {
 
