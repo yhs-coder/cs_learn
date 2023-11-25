@@ -125,7 +125,7 @@ public:
 void test5()
 {
 	cout << "sizeof(Derived) :" << sizeof(Derived) << endl;
-	Derived2 <int, double> d;
+	Derived2<int, double> d;
 }
 
 
