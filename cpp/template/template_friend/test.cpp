@@ -8,18 +8,18 @@ class Person;
 
 // 告诉编译器这个函数模板是存在
 template <class T1, class T2>
-void print_person(Person<T1, T2>& p);
+void print_person2(Person<T1, T2>& p);
 
 // 友元函数在类实现
 template <class T1, class T2>
 class Person
 {
-	// 1. 友元函数在类内实现
+	// 1. 友元函数类内实现
 	friend void print_person(Person<T1, T2>& p) {
 		cout << "name: " << p.name_ << " age：" << p.age_ << endl;
 	}
 
-	// 2.友元函数类外实现 ,告诉编译器这个函数模板是存在
+	// 2.友元函数先在类前声明，类外实现 ,使用<>是告诉编译器这个函数模板是存在
 	friend void print_person2<>(Person<T1, T2>& p);
 	
 	// 3.类模板使用友元函数模板
@@ -62,8 +62,10 @@ void test2()
 	Person<std::string, int> p("jerry", 100);
 	print_person2(p);
 }
+
 int main()
 {
-	test1();
+	//test1();
+	test2();
 	return 0;
 }

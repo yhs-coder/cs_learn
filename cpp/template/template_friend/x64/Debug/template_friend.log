@@ -1,2 +1,8 @@
 ﻿  test.cpp
-  template_friend.vcxproj -> D:\桌面\cpp\cs_learn\cpp\template\x64\Debug\template_friend.exe
+D:\桌面\cpp\cs_learn\cpp\template\template_friend\test.cpp(23,37): error C2065: “T3”: 未声明的标识符
+D:\桌面\cpp\cs_learn\cpp\template\template_friend\test.cpp(42): message : 查看对正在编译的 类 模板 实例化“Person<T3,T4>”的引用
+D:\桌面\cpp\cs_learn\cpp\template\template_friend\test.cpp(23,41): error C2065: “T4”: 未声明的标识符
+D:\桌面\cpp\cs_learn\cpp\template\template_friend\test.cpp(23,30): error C2923: “Person”: 对于参数“T1”，“T3”不是有效的 模板 类型变量
+D:\桌面\cpp\cs_learn\cpp\template\template_friend\test.cpp(23): message : 参见“T3”的声明
+D:\桌面\cpp\cs_learn\cpp\template\template_friend\test.cpp(23,30): error C2923: “Person”: 对于参数“T2”，“T4”不是有效的 模板 类型变量
+D:\桌面\cpp\cs_learn\cpp\template\template_friend\test.cpp(23): message : 参见“T4”的声明
