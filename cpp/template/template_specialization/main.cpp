@@ -179,7 +179,6 @@ int main()
 }
 #endif
 
-// 参数更进一步的限制：比如指定当T1和T2为某种类型时 (T1*, T2*)，使用特殊化的类模板
 
 // 两个参数偏特化为指针类型
 template <class T1, class T2>
@@ -195,6 +194,7 @@ private:
 	T1 y1_;
 	T2 y2_;
 };
+
 
 // 两个参数偏特化为引用类型
 template <class T1, class T2>
