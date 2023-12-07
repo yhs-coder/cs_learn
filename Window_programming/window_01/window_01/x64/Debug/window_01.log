@@ -1,2 +1,4 @@
 ﻿  main.cpp
+D:\Github_cs_learn\Window_programming\window_01\window_01\main.cpp(39,61): warning C4267: “参数”: 从“size_t”转换到“DWORD”，可能丢失数据
+D:\Github_cs_learn\Window_programming\window_01\window_01\main.cpp(64,63): warning C4267: “参数”: 从“size_t”转换到“DWORD”，可能丢失数据
   window_01.vcxproj -> D:\Github_cs_learn\Window_programming\window_01\x64\Debug\window_01.exe
