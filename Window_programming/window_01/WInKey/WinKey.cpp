@@ -7,7 +7,7 @@ void OnKeyDown(HWND hWnd, WPARAM wParam)
 {
 	char szText[256] = { 0 };
 	sprintf(szText, "WM_KEYDOWN：键码值 = %d\n", wParam);
-	WriteConsole(g_hOutput, szText, strlen(szText),NULL,NULL);
+	WriteConsole(g_hOutput, szText, strlen(szText), NULL, NULL);
 }
 
 void OnKeyUp(HWND hWnd, WPARAM wParam)
@@ -37,20 +37,21 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT msgID, WPARAM wParam, LPARAM lParam) {
 	case WM_CHAR:
 		OnChar(hWnd, wParam);
 		break;
-	// 系统按键按下，如alt,ctrl
+		// 系统按键按下，如alt,ctrl
 	case WM_SYSKEYDOWN:
 		OnSysKeyDown(hWnd, wParam);
 		break;
-	// 按键按下
+		// 按键按下
 	case WM_KEYDOWN:
 		OnKeyDown(hWnd, wParam);
 		break;
-	// 按键放开
+		// 按键放开
 	case WM_KEYUP:
 		OnKeyUp(hWnd, wParam);
 		break;
 	case WM_LBUTTONDOWN:
 		InvalidateRect(hWnd, NULL, TRUE);
+		break;
 	case WM_DESTROY:
 		PostQuitMessage(0); // 可以使GetMessage函数返回0？
 		break;
