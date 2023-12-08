@@ -1,0 +1,4 @@
+﻿  WinPaint.cpp
+D:\Github_cs_learn\Window_programming\window_01\WInPaint\WinPaint.cpp(7,62): warning C4267: “参数”: 从“size_t”转换到“DWORD”，可能丢失数据
+D:\Github_cs_learn\Window_programming\window_01\WInPaint\WinPaint.cpp(38,63): warning C4267: “参数”: 从“size_t”转换到“DWORD”，可能丢失数据
+  WInPaint.vcxproj -> D:\Github_cs_learn\Window_programming\window_01\x64\Debug\WInPaint.exe
