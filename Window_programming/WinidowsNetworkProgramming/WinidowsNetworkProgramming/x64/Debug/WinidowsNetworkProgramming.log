@@ -1,3 +1,1 @@
-﻿  server.cpp
-D:\Github_cs_learn\Window_programming\WinidowsNetworkProgramming\WinidowsNetworkProgramming\server.cpp(104,45): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
-  WinidowsNetworkProgramming.vcxproj -> D:\Github_cs_learn\Window_programming\WinidowsNetworkProgramming\x64\Debug\WinidowsNetworkProgramming.exe
+﻿  WinidowsNetworkProgramming.vcxproj -> D:\Github_cs_learn\Window_programming\WinidowsNetworkProgramming\x64\Debug\WinidowsNetworkProgramming.exe

@@ -59,13 +59,17 @@ int main()
 	// 给监听的套接字设置监听，并设置最大连接数
 	if (SOCKET_ERROR == listen(sockSrv, 6)) {
 		printf("listen error: %d\n", GetLastError());
+		system("pause");
 		return -1;
 	}
 	
+	std::cout << "delay 5s..." << std::endl;
+	Sleep(15000);
 
 	SOCKADDR_IN addrClt;	// 客户端
 	int len = sizeof(SOCKADDR);
 
+#if 0
 	std::cout << "waiting for connection..." << std::endl;
 	// 等待并接受客户端的连接请求, 当建立新的连接, 会得到一个新的套接字
 	SOCKET sockConn = accept(sockSrv, (SOCKADDR*)&addrClt, &len);
@@ -77,7 +81,6 @@ int main()
 	// 打印客户端的地址消息
 	printf("client IP: %s, port: %d\n", inet_ntoa(addrClt.sin_addr), ntohs(addrClt.sin_port));
 
-#if 1
 	// 与客户端循环通信
 	while (true) {
 		// 接收数据
@@ -108,6 +111,16 @@ int main()
 #else
 	// 匹配和客户端通信一次
 	while (true) {
+		std::cout << "waiting for connection..." << std::endl;
+		// 等待并接受客户端的连接请求, 当建立新的连接, 会得到一个新的套接字
+		SOCKET sockConn = accept(sockSrv, (SOCKADDR*)&addrClt, &len);
+		if (sockConn == INVALID_SOCKET) {
+			printf("listen error: %d\n", GetLastError());
+			return -1;
+		}
+
+		// 打印客户端的地址消息
+		printf("client IP: %s, port: %d\n", inet_ntoa(addrClt.sin_addr), ntohs(addrClt.sin_port));
 		char sendBuf[256] = { 0 };
 		sprintf_s(sendBuf, 256, "server say: The client IP is %s...\n", inet_ntoa(addrClt.sin_addr));
 		// 发送数据
