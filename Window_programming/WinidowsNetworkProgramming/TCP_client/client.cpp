@@ -43,7 +43,7 @@ int main()
 		printf("connect error: %d\n", GetLastError());
 		return -1;
 	}
-#if 1
+#if 0
 	// 与服务端循环通信
 	while (true) {
 		char sendBuf[256] = { 0 };
