@@ -8,7 +8,6 @@ using std::endl;
 
 int main()
 {
-	// 初始化套接字库
 	WSADATA wsa;
 	if (WSAStartup(MAKEWORD(2, 2), &wsa) != 0) {
 		cout << "WSAStartup err：" << GetLastError() << endl;
@@ -40,8 +39,6 @@ int main()
 	char recvBuf[256] = { 0 };
 	char sendBuf[256] = "hello world!";
 
-	// UDP通信
-	
 	// 发送数据
 	sendto(sockClt, sendBuf, strlen(sendBuf) + 1, 0, (SOCKADDR*)&addrSrv, len);
 
