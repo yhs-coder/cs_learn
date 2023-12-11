@@ -1,0 +1,4 @@
+﻿  ClientViewFiles.cpp
+D:\Github_cs_learn\Window_programming\WinidowsNetworkProgramming\ClientViewFiles\ClientViewFiles.cpp(50,38): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+D:\Github_cs_learn\Window_programming\WinidowsNetworkProgramming\ClientViewFiles\ClientViewFiles.cpp(56,47): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+  ClientViewFiles.vcxproj -> D:\Github_cs_learn\Window_programming\WinidowsNetworkProgramming\x64\Debug\ClientViewFiles.exe
