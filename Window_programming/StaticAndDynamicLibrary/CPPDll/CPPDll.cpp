@@ -13,3 +13,8 @@ int cpplib_mul(int a, int b)
 {
 	return a * b;
 }
+
+int cpplib_div(int a, int b)
+{
+	return a / b;
+}
