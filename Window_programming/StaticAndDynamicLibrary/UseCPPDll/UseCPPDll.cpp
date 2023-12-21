@@ -22,7 +22,7 @@ int main()
 }
 
 #else 
-// 显示链接
+// 显示链接 模块定义文件
 
 #include <windows.h>
 
@@ -57,6 +57,8 @@ int main() {
 	std::cout << "myDiv: " << myDiv << std::endl;
 	int div = myDiv(5, 4);
 	std::cout << "div = " << div << std::endl;
+
+	FreeLibrary(hDll);
 	return 0;
 }
 #endif
