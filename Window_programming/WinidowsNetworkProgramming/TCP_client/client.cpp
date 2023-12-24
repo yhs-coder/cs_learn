@@ -81,11 +81,15 @@ int main()
 	else {
 		std::cout << recvBuf << std::endl;
 	}
+	// 阻塞一下，验证服务端是否可以处理多个客户端
+	std::cout << "getchar..." << std::endl;
+	getchar();
 
 	// 发送数据
 	char sendBuf[256] = { 0 };
 	sprintf_s(sendBuf, 256, "client say: hello, server... \n");
 	send(sockClt, sendBuf, strlen(sendBuf) + 1, 0);
+	
 #endif
 
 	closesocket(sockClt);
