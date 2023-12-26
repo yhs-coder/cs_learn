@@ -1,0 +1,5 @@
+﻿  server.cpp
+D:\Github_cs_learn\Window_programming\ThreadSynchronization\Demo_GroupChatServer\server.cpp(25,32): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+D:\Github_cs_learn\Window_programming\ThreadSynchronization\Demo_GroupChatServer\server.cpp(94,32): warning C4305: “参数”: 从“int”到“u_short”截断
+D:\Github_cs_learn\Window_programming\ThreadSynchronization\Demo_GroupChatServer\server.cpp(94,27): warning C4309: “参数”: 截断常量值
+  Demo_GroupChatServer.vcxproj -> D:\Github_cs_learn\Window_programming\ThreadSynchronization\x64\Debug\Demo_GroupChatServer.exe
