@@ -15,14 +15,8 @@ DWORD CALLBACK ThreadProc(LPVOID lpParam)
 		Sleep(1000);*/
 
 		// µÈºò»¥³â¾ä±úÓÐÐÅºÅ
-		WaitForSingleObject(g_hMutex, INFINITE);
-		for (int i = 0; i < strlen(pzText); i++) {
-			cout << pzText[i];
-			Sleep(125);
-		}
-		cout << endl;
-		// ÊÍ·Å»¥³â¾ä±ú
-		ReleaseMutex(g_hMutex);
+		Wait
+
 	}
 	return 0;
 }
