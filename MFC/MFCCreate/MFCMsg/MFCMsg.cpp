@@ -24,7 +24,7 @@ END_MESSAGE_MAP()
 #else
 // 以上宏展开
 // BEGIN_MESSAGE_MAP(theClass, baseClass) 
-//PTM_WARNING_DISABLE
+PTM_WARNING_DISABLE
 const AFX_MSGMAP* CMyFrameWnd::GetMessageMap() const
 {
 	return GetThisMessageMap();
@@ -42,7 +42,7 @@ const AFX_MSGMAP* PASCAL CMyFrameWnd::GetThisMessageMap()
 	{   WM_CREATE, 0, 0, 0, AfxSig_lwl,
 		(AFX_PMSG)(AFX_PMSGW)
 		(static_cast<LRESULT(AFX_MSG_CALL CWnd::*)(WPARAM, LPARAM)>
-		(&OnCreate)) },
+		(OnCreate)) },
 
 		// END_MESSAGE_MAP()展开
 		{0, 0, 0, 0, AfxSig_end, (AFX_PMSG)0 }
@@ -52,7 +52,7 @@ const AFX_MSGMAP* PASCAL CMyFrameWnd::GetThisMessageMap()
 	{ &TheBaseClass::GetThisMessageMap, &_messageEntries[0] };
 	return &messageMap;
 }
-//PTM_WARNING_RESTORE
+PTM_WARNING_RESTORE
 
 
 #endif
