@@ -1,0 +1,5 @@
+﻿  MFCView.cpp
+  _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+D:\Github_cs_learn\MFC\MFCView\MFCView\MFCView.cpp(21,73): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+D:\Github_cs_learn\MFC\MFCView\MFCView\MFCView.cpp(56,83): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+  MFCView.vcxproj -> D:\Github_cs_learn\MFC\MFCView\x64\Debug\MFCView.exe
