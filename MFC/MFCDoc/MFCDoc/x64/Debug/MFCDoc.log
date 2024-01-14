@@ -1,0 +1,4 @@
+﻿  MFCDoc.cpp
+  _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+D:\Github_cs_learn\MFC\MFCDoc\MFCDoc\MFCDoc.cpp(107,95): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+  MFCDoc.vcxproj -> D:\Github_cs_learn\MFC\MFCDoc\x64\Debug\MFCDoc.exe
