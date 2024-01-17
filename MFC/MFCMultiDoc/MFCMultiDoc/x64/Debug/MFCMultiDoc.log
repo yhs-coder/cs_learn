@@ -1,0 +1,5 @@
+﻿  MFCMultiDoc.cpp
+  _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+D:\Github_cs_learn\MFC\MFCMultiDoc\MFCMultiDoc\resource.h(10,1): warning C4005: “AFX_IDS_UNTITLED”: 宏重定义
+D:\Program Files\Microsoft Visual Studio2022\VC\Tools\MSVC\14.31.31103\atlmfc\include\afxres.h(370): message : 参见“AFX_IDS_UNTITLED”的前一个定义
+  MFCMultiDoc.vcxproj -> D:\Github_cs_learn\MFC\MFCMultiDoc\x64\Debug\MFCMultiDoc.exe
