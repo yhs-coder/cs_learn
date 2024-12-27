@@ -223,11 +223,19 @@ void test_function() {
     cout << "subtract : " << func3(2,1) << endl;
 }
 
+void test_bind(){
+    // 1. std::bind绑定部分参数
+    auto bind_add = std::bind(add, 5, std::placeholders::_1);
+    cout << "bind_add : 5 + 10 =  " << bind_add(10) << endl;
+}
+
+
 int main() {
 //    test_func_ptr();
 //    test_functor();
 //    test_lambda();
-    test_function();
+//    test_function();
+    test_bind();
 
     return 0;
 }
